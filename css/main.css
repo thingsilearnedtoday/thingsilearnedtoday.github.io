@@ -1,0 +1,79 @@
+/* =========
+  RESET
+========= */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, q, small, strike, strong, sub, sup, tt, var, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, button, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, footer, header, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* =========
+  GENERAL
+========= */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px !default;
+  font-family: 'Merriweather';
+}
+html, body {
+  min-height: 100%;
+}
+a {
+  text-decoration: none;
+}
+.center__content {
+  width: 45rem;
+  margin: 0 auto;
+}
+.cf::before, .cf::after {
+  content: '';
+  display: table;
+}
+.cf::after {
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+/* =========
+  SITE HEADER
+========= */
+
+.site__header {
+  height: 5rem;
+  background: #9c27b0;
+}
+/* =========
+  SITE TITLE
+========= */
+
+.site__title {
+  color: #fff;
+  line-height: 5rem;
+}
