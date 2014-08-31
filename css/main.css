@@ -103,7 +103,10 @@ a {
   POST
 ========= */
 
-.post::after {
+.page__post {
+  margin-bottom: 5rem;
+}
+.post:not(.page__post)::after {
   display: block;
   width: 60%;
   min-width: 100px;
