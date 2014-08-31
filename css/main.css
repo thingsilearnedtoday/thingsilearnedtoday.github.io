@@ -75,21 +75,13 @@ a {
   background: #0288d1;
 }
 /* =========
-  SITE TITLE
+  TITLE & NAV
 ========= */
 
-.site__title {
-  color: #fff;
+.site__title, .site__nav {
   line-height: 5rem;
 }
-/* =========
-  SITE NAV
-========= */
-
-.site__nav {
-  line-height: 5rem;
-}
-.site__nav a {
+.site__title a, .site__nav a {
   color: #fff;
 }
 /* =========
@@ -186,6 +178,31 @@ a {
   border-top: 1px solid #e0e0e0;
   text-align: center;
 }
+.site__footer p {
+  line-height: 1.5;
+}
 .site__footer p:first-child {
   margin-bottom: 1rem;
+}
+/* =========
+  MQ
+========= */
+
+@media screen and (max-width: 50rem) {
+  .center__content {
+    width: 100%;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+@media screen and (max-width: 35rem) {
+  .posts__list {
+    padding-top: 3rem;
+  }
+  .site__pagination {
+    margin-bottom: 3rem;
+  }
+  .post:not(.page__post)::after {
+    margin: 3rem auto;
+  }
 }
