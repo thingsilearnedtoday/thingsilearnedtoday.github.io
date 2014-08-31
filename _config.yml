@@ -5,7 +5,6 @@ author: Vlad Zelinschi
 description: "A curated list of various things I learn each day."
 baseurl: ""
 url: "http://thingsilearnedtoday.github.io"
-google_analytics: ""
 
 # Build settings
 markdown: kramdown
